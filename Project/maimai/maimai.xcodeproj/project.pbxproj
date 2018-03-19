@@ -1,0 +1,702 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D530BA03205F96C6002E74CC /* NeiTui.app in Resources */ = {isa = PBXBuildFile; fileRef = D530BA02205F96C6002E74CC /* NeiTui.app */; };
+		D54D8EA8205A85CE005CE0B2 /* MethodTraceConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = D54D8EA7205A85CE005CE0B2 /* MethodTraceConfig.plist */; };
+		D54D8EB2205A85CE005CE0B2 /* libmaimaiDylib.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = D54D8EB1205A85CE005CE0B2 /* libmaimaiDylib.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		D54D8EB7205A85CE005CE0B2 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D54D8EB6205A85CE005CE0B2 /* JavaScriptCore.framework */; };
+		D54D8EB9205A85CE005CE0B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D54D8EB8205A85CE005CE0B2 /* Foundation.framework */; };
+		D54D8EBB205A85CE005CE0B2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D54D8EBA205A85CE005CE0B2 /* UIKit.framework */; };
+		D54D8EC0205A85CE005CE0B2 /* maimaiDylib.mm in Sources */ = {isa = PBXBuildFile; fileRef = D54D8EBF205A85CE005CE0B2 /* maimaiDylib.mm */; };
+		D54D8EC3205A85CE005CE0B2 /* LLDBTools.h in Headers */ = {isa = PBXBuildFile; fileRef = D54D8EC2205A85CE005CE0B2 /* LLDBTools.h */; };
+		D54D8EC5205A85CE005CE0B2 /* LLDBTools.mm in Sources */ = {isa = PBXBuildFile; fileRef = D54D8EC4205A85CE005CE0B2 /* LLDBTools.mm */; };
+		D54D8EC8205A85CE005CE0B2 /* ANYMethodLog.h in Headers */ = {isa = PBXBuildFile; fileRef = D54D8EC7205A85CE005CE0B2 /* ANYMethodLog.h */; };
+		D54D8ECA205A85CE005CE0B2 /* ANYMethodLog.m in Sources */ = {isa = PBXBuildFile; fileRef = D54D8EC9205A85CE005CE0B2 /* ANYMethodLog.m */; };
+		D54D8ECC205A85CE005CE0B2 /* MethodTrace.h in Headers */ = {isa = PBXBuildFile; fileRef = D54D8ECB205A85CE005CE0B2 /* MethodTrace.h */; };
+		D54D8ECE205A85CE005CE0B2 /* MethodTrace.m in Sources */ = {isa = PBXBuildFile; fileRef = D54D8ECD205A85CE005CE0B2 /* MethodTrace.m */; };
+		D54D8ED3205A85CE005CE0B2 /* AntiAntiDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = D54D8ED2205A85CE005CE0B2 /* AntiAntiDebug.m */; };
+		D54D8ED6205A85CE005CE0B2 /* fishhook.c in Sources */ = {isa = PBXBuildFile; fileRef = D54D8ED5205A85CE005CE0B2 /* fishhook.c */; };
+		D54D8ED8205A85CE005CE0B2 /* fishhook.h in Headers */ = {isa = PBXBuildFile; fileRef = D54D8ED7205A85CE005CE0B2 /* fishhook.h */; };
+		D54D8EDA205A85CE005CE0B2 /* maimaiDylib.h in Headers */ = {isa = PBXBuildFile; fileRef = D54D8ED9205A85CE005CE0B2 /* maimaiDylib.h */; };
+		D54D8EDC205A85CE005CE0B2 /* maimaiDylib.m in Sources */ = {isa = PBXBuildFile; fileRef = D54D8EDB205A85CE005CE0B2 /* maimaiDylib.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D54D8EB3205A85CE005CE0B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D54D8E95205A85CE005CE0B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D54D8EB0205A85CE005CE0B2;
+			remoteInfo = maimaiDylib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D54D8E9D205A85CE005CE0B2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D54D8EB2205A85CE005CE0B2 /* libmaimaiDylib.dylib in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D530BA02205F96C6002E74CC /* NeiTui.app */ = {isa = PBXFileReference; lastKnownFileType = wrapper.application; name = NeiTui.app; path = TargetApp/NeiTui.app; sourceTree = "<group>"; };
+		D54D8EA0205A85CE005CE0B2 /* maimai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = maimai.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D54D8EA3205A85CE005CE0B2 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		D54D8EA5205A85CE005CE0B2 /* quick-resign.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = "quick-resign.sh"; path = "Scripts/quick-resign.sh"; sourceTree = "<group>"; };
+		D54D8EA7205A85CE005CE0B2 /* MethodTraceConfig.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = MethodTraceConfig.plist; path = Config/MethodTraceConfig.plist; sourceTree = "<group>"; };
+		D54D8EAB205A85CE005CE0B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D54D8EB1205A85CE005CE0B2 /* libmaimaiDylib.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libmaimaiDylib.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		D54D8EB6205A85CE005CE0B2 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		D54D8EB8205A85CE005CE0B2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D54D8EBA205A85CE005CE0B2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D54D8EBE205A85CE005CE0B2 /* maimaiDylib.xm */ = {isa = PBXFileReference; lastKnownFileType = text; name = maimaiDylib.xm; path = Logos/maimaiDylib.xm; sourceTree = "<group>"; };
+		D54D8EBF205A85CE005CE0B2 /* maimaiDylib.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = maimaiDylib.mm; path = Logos/maimaiDylib.mm; sourceTree = "<group>"; };
+		D54D8EC2205A85CE005CE0B2 /* LLDBTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LLDBTools.h; path = Tools/LLDBTools.h; sourceTree = "<group>"; };
+		D54D8EC4205A85CE005CE0B2 /* LLDBTools.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = LLDBTools.mm; path = Tools/LLDBTools.mm; sourceTree = "<group>"; };
+		D54D8EC7205A85CE005CE0B2 /* ANYMethodLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ANYMethodLog.h; path = MethodTrace/ANYMethodLog.h; sourceTree = "<group>"; };
+		D54D8EC9205A85CE005CE0B2 /* ANYMethodLog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ANYMethodLog.m; path = MethodTrace/ANYMethodLog.m; sourceTree = "<group>"; };
+		D54D8ECB205A85CE005CE0B2 /* MethodTrace.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MethodTrace.h; path = MethodTrace/MethodTrace.h; sourceTree = "<group>"; };
+		D54D8ECD205A85CE005CE0B2 /* MethodTrace.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MethodTrace.m; path = MethodTrace/MethodTrace.m; sourceTree = "<group>"; };
+		D54D8ED0205A85CE005CE0B2 /* maimaiDylib-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "maimaiDylib-Prefix.pch"; sourceTree = "<group>"; };
+		D54D8ED2205A85CE005CE0B2 /* AntiAntiDebug.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AntiAntiDebug.m; path = AntiAntiDebug/AntiAntiDebug.m; sourceTree = "<group>"; };
+		D54D8ED5205A85CE005CE0B2 /* fishhook.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = fishhook.c; path = fishhook/fishhook.c; sourceTree = "<group>"; };
+		D54D8ED7205A85CE005CE0B2 /* fishhook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = fishhook.h; path = fishhook/fishhook.h; sourceTree = "<group>"; };
+		D54D8ED9205A85CE005CE0B2 /* maimaiDylib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = maimaiDylib.h; sourceTree = "<group>"; };
+		D54D8EDB205A85CE005CE0B2 /* maimaiDylib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = maimaiDylib.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D54D8E9A205A85CE005CE0B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D54D8EAE205A85CE005CE0B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D54D8EB7205A85CE005CE0B2 /* JavaScriptCore.framework in Frameworks */,
+				D54D8EBB205A85CE005CE0B2 /* UIKit.framework in Frameworks */,
+				D54D8EB9205A85CE005CE0B2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D54D8E94205A85CE005CE0B2 = {
+			isa = PBXGroup;
+			children = (
+				D54D8EA2205A85CE005CE0B2 /* maimai */,
+				D54D8EBC205A85CE005CE0B2 /* maimaiDylib */,
+				D54D8EB5205A85CE005CE0B2 /* Frameworks */,
+				D54D8EA1205A85CE005CE0B2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D54D8EA1205A85CE005CE0B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D54D8EA0205A85CE005CE0B2 /* maimai.app */,
+				D54D8EB1205A85CE005CE0B2 /* libmaimaiDylib.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D54D8EA2205A85CE005CE0B2 /* maimai */ = {
+			isa = PBXGroup;
+			children = (
+				D54D8EA3205A85CE005CE0B2 /* icon.png */,
+				D54D8EAB205A85CE005CE0B2 /* Info.plist */,
+				D54D8EA4205A85CE005CE0B2 /* Scripts */,
+				D54D8EA6205A85CE005CE0B2 /* Config */,
+				D54D8EA9205A85CE005CE0B2 /* TargetApp */,
+			);
+			path = maimai;
+			sourceTree = "<group>";
+		};
+		D54D8EA4205A85CE005CE0B2 /* Scripts */ = {
+			isa = PBXGroup;
+			children = (
+				D54D8EA5205A85CE005CE0B2 /* quick-resign.sh */,
+			);
+			name = Scripts;
+			sourceTree = "<group>";
+		};
+		D54D8EA6205A85CE005CE0B2 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				D54D8EA7205A85CE005CE0B2 /* MethodTraceConfig.plist */,
+			);
+			name = Config;
+			sourceTree = "<group>";
+		};
+		D54D8EA9205A85CE005CE0B2 /* TargetApp */ = {
+			isa = PBXGroup;
+			children = (
+				D530BA02205F96C6002E74CC /* NeiTui.app */,
+			);
+			name = TargetApp;
+			sourceTree = "<group>";
+		};
+		D54D8EB5205A85CE005CE0B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D54D8EB6205A85CE005CE0B2 /* JavaScriptCore.framework */,
+				D54D8EB8205A85CE005CE0B2 /* Foundation.framework */,
+				D54D8EBA205A85CE005CE0B2 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D54D8EBC205A85CE005CE0B2 /* maimaiDylib */ = {
+			isa = PBXGroup;
+			children = (
+				D54D8ED9205A85CE005CE0B2 /* maimaiDylib.h */,
+				D54D8EDB205A85CE005CE0B2 /* maimaiDylib.m */,
+				D54D8EBD205A85CE005CE0B2 /* Logos */,
+				D54D8EC1205A85CE005CE0B2 /* Tools */,
+				D54D8EC6205A85CE005CE0B2 /* MethodTrace */,
+				D54D8ED1205A85CE005CE0B2 /* AntiAntiDebug */,
+				D54D8ED4205A85CE005CE0B2 /* fishhook */,
+				D54D8ECF205A85CE005CE0B2 /* Supporting Files */,
+			);
+			path = maimaiDylib;
+			sourceTree = "<group>";
+		};
+		D54D8EBD205A85CE005CE0B2 /* Logos */ = {
+			isa = PBXGroup;
+			children = (
+				D54D8EBE205A85CE005CE0B2 /* maimaiDylib.xm */,
+				D54D8EBF205A85CE005CE0B2 /* maimaiDylib.mm */,
+			);
+			name = Logos;
+			sourceTree = "<group>";
+		};
+		D54D8EC1205A85CE005CE0B2 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				D54D8EC2205A85CE005CE0B2 /* LLDBTools.h */,
+				D54D8EC4205A85CE005CE0B2 /* LLDBTools.mm */,
+			);
+			name = Tools;
+			sourceTree = "<group>";
+		};
+		D54D8EC6205A85CE005CE0B2 /* MethodTrace */ = {
+			isa = PBXGroup;
+			children = (
+				D54D8EC7205A85CE005CE0B2 /* ANYMethodLog.h */,
+				D54D8EC9205A85CE005CE0B2 /* ANYMethodLog.m */,
+				D54D8ECB205A85CE005CE0B2 /* MethodTrace.h */,
+				D54D8ECD205A85CE005CE0B2 /* MethodTrace.m */,
+			);
+			name = MethodTrace;
+			sourceTree = "<group>";
+		};
+		D54D8ECF205A85CE005CE0B2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D54D8ED0205A85CE005CE0B2 /* maimaiDylib-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D54D8ED1205A85CE005CE0B2 /* AntiAntiDebug */ = {
+			isa = PBXGroup;
+			children = (
+				D54D8ED2205A85CE005CE0B2 /* AntiAntiDebug.m */,
+			);
+			name = AntiAntiDebug;
+			sourceTree = "<group>";
+		};
+		D54D8ED4205A85CE005CE0B2 /* fishhook */ = {
+			isa = PBXGroup;
+			children = (
+				D54D8ED5205A85CE005CE0B2 /* fishhook.c */,
+				D54D8ED7205A85CE005CE0B2 /* fishhook.h */,
+			);
+			name = fishhook;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D54D8EAF205A85CE005CE0B2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D54D8EC3205A85CE005CE0B2 /* LLDBTools.h in Headers */,
+				D54D8ECC205A85CE005CE0B2 /* MethodTrace.h in Headers */,
+				D54D8EC8205A85CE005CE0B2 /* ANYMethodLog.h in Headers */,
+				D54D8ED8205A85CE005CE0B2 /* fishhook.h in Headers */,
+				D54D8EDA205A85CE005CE0B2 /* maimaiDylib.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D54D8E9F205A85CE005CE0B2 /* maimai */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D54D8EE2205A85CE005CE0B2 /* Build configuration list for PBXNativeTarget "maimai" */;
+			buildPhases = (
+				D54D8E99205A85CE005CE0B2 /* Sources */,
+				D54D8E9A205A85CE005CE0B2 /* Frameworks */,
+				D54D8E9B205A85CE005CE0B2 /* ShellScript */,
+				D54D8E9C205A85CE005CE0B2 /* Resources */,
+				D54D8E9D205A85CE005CE0B2 /* CopyFiles */,
+				D54D8E9E205A85CE005CE0B2 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D54D8EB4205A85CE005CE0B2 /* PBXTargetDependency */,
+			);
+			name = maimai;
+			productName = maimai;
+			productReference = D54D8EA0205A85CE005CE0B2 /* maimai.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D54D8EB0205A85CE005CE0B2 /* maimaiDylib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D54D8EDF205A85CE005CE0B2 /* Build configuration list for PBXNativeTarget "maimaiDylib" */;
+			buildPhases = (
+				D54D8EAC205A85CE005CE0B2 /* ShellScript */,
+				D54D8EAD205A85CE005CE0B2 /* Sources */,
+				D54D8EAE205A85CE005CE0B2 /* Frameworks */,
+				D54D8EAF205A85CE005CE0B2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = maimaiDylib;
+			productName = maimaiDylib;
+			productReference = D54D8EB1205A85CE005CE0B2 /* libmaimaiDylib.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D54D8E95205A85CE005CE0B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = xuezhaofeng;
+				TargetAttributes = {
+					D54D8E9F205A85CE005CE0B2 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					D54D8EB0205A85CE005CE0B2 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D54D8E98205A85CE005CE0B2 /* Build configuration list for PBXProject "maimai" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D54D8E94205A85CE005CE0B2;
+			productRefGroup = D54D8EA1205A85CE005CE0B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D54D8E9F205A85CE005CE0B2 /* maimai */,
+				D54D8EB0205A85CE005CE0B2 /* maimaiDylib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D54D8E9C205A85CE005CE0B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D54D8EA8205A85CE005CE0B2 /* MethodTraceConfig.plist in Resources */,
+				D530BA03205F96C6002E74CC /* NeiTui.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D54D8E9B205A85CE005CE0B2 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = /opt/MonkeyDev/Tools/pack.sh;
+		};
+		D54D8E9E205A85CE005CE0B2 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/MonkeyDev/Tools/pack.sh codesign";
+		};
+		D54D8EAC205A85CE005CE0B2 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/MonkeyDev/bin/md --xcbp-logos";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D54D8E99205A85CE005CE0B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D54D8EAD205A85CE005CE0B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D54D8ECE205A85CE005CE0B2 /* MethodTrace.m in Sources */,
+				D54D8EDC205A85CE005CE0B2 /* maimaiDylib.m in Sources */,
+				D54D8ED3205A85CE005CE0B2 /* AntiAntiDebug.m in Sources */,
+				D54D8EC0205A85CE005CE0B2 /* maimaiDylib.mm in Sources */,
+				D54D8ECA205A85CE005CE0B2 /* ANYMethodLog.m in Sources */,
+				D54D8ED6205A85CE005CE0B2 /* fishhook.c in Sources */,
+				D54D8EC5205A85CE005CE0B2 /* LLDBTools.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D54D8EB4205A85CE005CE0B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D54D8EB0205A85CE005CE0B2 /* maimaiDylib */;
+			targetProxy = D54D8EB3205A85CE005CE0B2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D54D8EDD205A85CE005CE0B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D54D8EDE205A85CE005CE0B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D54D8EE0205A85CE005CE0B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SJ492NNCM7;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				EXECUTABLE_PREFIX = lib;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/Frameworks/**",
+					"$(MonkeyDevPath)/Librarys/**",
+					"$(MonkeyDevTheosPath)/vendor/lib",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "maimaiDylib/maimaiDylib-Prefix.pch";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/include",
+					"$(MonkeyDevTheosPath)/vendor/include/**",
+				);
+				INSTALL_PATH = "@executable_path/Frameworks/libmaimaiDylib.dylib";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/Frameworks",
+					"$(MonkeyDevTheosPath)/vendor/lib/**",
+				);
+				MonkeyDevPath = /opt/MonkeyDev;
+				MonkeyDevTheosPath = /opt/theos;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-DTHEOS_INSTANCE_NAME=\"\\\"maimaiDylib\\\"\"",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-weak_library",
+					"/usr/lib/libc++.dylib",
+					"-weak_library",
+					"/usr/lib/libstdc++.dylib",
+					"-lsubstrate",
+					"-framework",
+					Cycript,
+					"-framework",
+					RevealServer,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		D54D8EE1205A85CE005CE0B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = SJ492NNCM7;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				EXECUTABLE_PREFIX = lib;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/Frameworks/**",
+					"$(MonkeyDevPath)/Librarys/**",
+					"$(MonkeyDevTheosPath)/vendor/lib",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "maimaiDylib/maimaiDylib-Prefix.pch";
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/include",
+					"$(MonkeyDevTheosPath)/vendor/include/**",
+				);
+				INSTALL_PATH = "@executable_path/Frameworks/libmaimaiDylib.dylib";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/Frameworks",
+					"$(MonkeyDevTheosPath)/vendor/lib/**",
+				);
+				MonkeyDevPath = /opt/MonkeyDev;
+				MonkeyDevTheosPath = /opt/theos;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-DTHEOS_INSTANCE_NAME=\"\\\"maimaiDylib\\\"\"",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-weak_library",
+					"/usr/lib/libc++.dylib",
+					"-weak_library",
+					"/usr/lib/libstdc++.dylib",
+					"-lsubstrate",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D54D8EE3205A85CE005CE0B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SJ492NNCM7;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = maimai/Info.plist;
+				MONKEYDEV_CLASS_DUMP = NO;
+				MONKEYDEV_INSERT_DYLIB = YES;
+				MONKEYDEV_RESTORE_SYMBOL = NO;
+				MONKEYDEV_TARGET_APP = Optional;
+				PODS_CONFIGURATION_BUILD_DIR = "$BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				PODS_ROOT = "${SRCROOT}/Pods";
+				PRODUCT_BUNDLE_IDENTIFIER = com.paladinfeng.maimai;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D54D8EE4205A85CE005CE0B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SJ492NNCM7;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = maimai/Info.plist;
+				MONKEYDEV_CLASS_DUMP = NO;
+				MONKEYDEV_INSERT_DYLIB = YES;
+				MONKEYDEV_RESTORE_SYMBOL = NO;
+				MONKEYDEV_TARGET_APP = Optional;
+				PODS_CONFIGURATION_BUILD_DIR = "$BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				PODS_ROOT = "${SRCROOT}/Pods";
+				PRODUCT_BUNDLE_IDENTIFIER = com.paladinfeng.maimai;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D54D8E98205A85CE005CE0B2 /* Build configuration list for PBXProject "maimai" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D54D8EDD205A85CE005CE0B2 /* Debug */,
+				D54D8EDE205A85CE005CE0B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D54D8EDF205A85CE005CE0B2 /* Build configuration list for PBXNativeTarget "maimaiDylib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D54D8EE0205A85CE005CE0B2 /* Debug */,
+				D54D8EE1205A85CE005CE0B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D54D8EE2205A85CE005CE0B2 /* Build configuration list for PBXNativeTarget "maimai" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D54D8EE3205A85CE005CE0B2 /* Debug */,
+				D54D8EE4205A85CE005CE0B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D54D8E95205A85CE005CE0B2 /* Project object */;
+}

@@ -1,0 +1,477 @@
+{
+  "version": 10,
+  "title": "脉脉表情包",
+  "scale": 2,
+  "emojis" : [
+    {
+      "name" : "[微笑]",
+      "file" : "zemoji_e001.png"
+    },
+    {
+      "name" : "[坏笑]",
+      "file" : "zemoji_e002.png"
+    },
+    {
+      "name" : "[哈哈]",
+      "file" : "zemoji_e003.png"
+    },
+    {
+      "name" : "[捂嘴]",
+      "file" : "zemoji_e005.png"
+    },
+    {
+      "name" : "[害羞]",
+      "file" : "zemoji_e006.png"
+    },
+    {
+      "name" : "[鼓掌]",
+      "file" : "zemoji_e095.png"
+    },
+    {
+      "name" : "[挖鼻屎]",
+      "file" : "zemoji_e097.png"
+    },
+    {
+      "name" : "[可怜]",
+      "file" : "zemoji_e008.png"
+    },
+    {
+      "name" : "[卖萌]",
+      "file" : "zemoji_e023.png"
+    },
+    {
+      "name" : "[做鬼脸]",
+      "file" : "zemoji_e123.png"
+    },
+    {
+      "name" : "[吐血]",
+      "file" : "zemoji_e100.png"
+    },
+    {
+      "name" : "[冷汗]",
+      "file" : "zemoji_e025.png"
+    },
+    {
+      "name" : "[吃惊]",
+      "file" : "zemoji_e027.png"
+    },
+    {
+      "name" : "[OK]",
+      "file" : "zemoji_e018.png"
+    },
+    {
+      "name" : "[握手]",
+      "file" : "zemoji_e019.png"
+    },
+    {
+      "name" : "[抱拳]",
+      "file" : "zemoji_e119.png"
+    },
+    {
+      "name" : "[耶]",
+      "file" : "zemoji_e021.png"
+    },
+    {
+      "name" : "[赞]",
+      "file" : "zemoji_e020.png"
+    },
+    {
+      "name" : "[弱]",
+      "file" : "zemoji_e016.png"
+    },
+    {
+      "name" : "[尴尬]",
+      "file" : "zemoji_e106.png"
+    },
+    {
+      "name" : "[笑哭]",
+      "file" : "zemoji_e107.png"
+    },
+    {
+      "name" : "[撇嘴]",
+      "file" : "zemoji_e108.png"
+    },
+    {
+      "name" : "[白眼]",
+      "file" : "zemoji_e105.png"
+    },
+    {
+      "name" : "[鄙视]",
+      "file" : "zemoji_e009.png"
+    },
+    {
+      "name" : "[敲打]",
+      "file" : "zemoji_e013.png"
+    },
+    {
+      "name" : "[威武]",
+      "file" : "zemoji_e010.png"
+    },
+    {
+      "name" : "[咖啡]",
+      "file" : "zemoji_e112.png"
+    },
+    {
+      "name" : "[碰杯]",
+      "file" : "zemoji_e113.png"
+    },
+    {
+      "name" : "[疑问]",
+      "file" : "zemoji_e028.png"
+    },
+    {
+      "name" : "[亲亲]",
+      "file" : "zemoji_e022.png"
+    },
+    {
+      "name" : "[流泪]",
+      "file" : "zemoji_e007.png"
+    },
+    {
+      "name" : "[瞪眼]",
+      "file" : "zemoji_e094.png"
+    },
+    {
+      "name" : "[得意]",
+      "file" : "zemoji_e024.png"
+    },
+    {
+      "name" : "[晕]",
+      "file" : "zemoji_e026.png"
+    },
+    {
+      "name" : "[囧]",
+      "file" : "zemoji_e029.png"
+    },
+    {
+      "name" : "[闭嘴]",
+      "file" : "zemoji_e096.png"
+    },
+    {
+      "name" : "[抓狂]",
+      "file" : "zemoji_e099.png"
+    },
+    {
+      "name" : "[不开心]",
+      "file" : "zemoji_e098.png"
+    },
+    {
+      "name" : "[抱抱]",
+      "file" : "zemoji_e093.png"
+    },
+    {
+      "name" : "[勾引]",
+      "file" : "zemoji_e120.png"
+    },
+    {
+      "name" : "[大腿]",
+      "file" : "zemoji_e121.png"
+    },
+    {
+      "name" : "[色]",
+      "file" : "zemoji_e011.png"
+    },
+    {
+      "name" : "[爱心]",
+      "file" : "zemoji_e014.png"
+    },
+    {
+      "name" : "[心碎]",
+      "file" : "zemoji_e015.png"
+    },
+    {
+      "name" : "[太阳]",
+      "file" : "zemoji_e110.png"
+    },
+    {
+      "name" : "[月亮]",
+      "file" : "zemoji_e111.png"
+    },
+    {
+      "name" : "[玫瑰]",
+      "file" : "zemoji_e114.png"
+    },
+    {
+      "name" : "[花谢]",
+      "file" : "zemoji_e115.png"
+    },
+    {
+      "name" : "[嘘]",
+      "file" : "zemoji_e012.png"
+    },
+    {
+      "name" : "[发财]",
+      "file" : "zemoji_e004.png"
+    },
+    {
+      "name" : "[发怒]",
+      "file" : "zemoji_e017.png"
+    },
+    {
+      "name" : "[吐]",
+      "file" : "zemoji_e101.png"
+    },
+    {
+      "name" : "[便便]",
+      "file" : "zemoji_e122.png"
+    },
+    {
+      "name" : "[瞌睡]",
+      "file" : "zemoji_e030.png"
+    },
+    {
+      "name" : "[再见]",
+      "file" : "zemoji_e109.png"
+    },
+    {
+      "name" : "[狗]",
+      "file" : "zemoji_e102.png"
+    },
+    {
+      "name" : "[猿]",
+      "file" : "zemoji_e103.png"
+    },
+    {
+      "name" : "[鸡]",
+      "file" : "zemoji_e104.png"
+    },
+    {
+      "name" : "[钱]",
+      "file" : "zemoji_e116.png"
+    },
+    {
+      "name" : "[灯泡]",
+      "file" : "zemoji_e117.png"
+    },
+    {
+      "name" : "[沙发]",
+      "file" : "zemoji_e118.png"
+    },
+    {
+      "name" : "[惊吓]",
+      "file" : "zemoji_e039.png"
+    },
+    {
+      "name" : "[呲牙]",
+      "file" : "zemoji_e043.png"
+    },
+    {
+      "name" : "[冷颤]",
+      "file" : "zemoji_e031.png"
+    },
+    {
+      "name" : "[呵呵]",
+      "file" : "zemoji_e032.png"
+    },
+    {
+      "name" : "[呆]",
+      "file" : "zemoji_e034.png"
+    },
+    {
+      "name" : "[羞]",
+      "file" : "zemoji_e035.png"
+    },
+    {
+      "name" : "[微微笑]",
+      "file" : "zemoji_e092.png"
+    },
+    {
+      "name" : "[泪]",
+      "file" : "zemoji_e036.png"
+    },
+    {
+      "name" : "[怒]",
+      "file" : "zemoji_e037.png"
+    },
+    {
+      "name" : "[哭泣]",
+      "file" : "zemoji_e038.png"
+    },
+    {
+      "name" : "[阴险]",
+      "file" : "zemoji_e040.png"
+    },
+    {
+      "name" : "[大哭]",
+      "file" : "zemoji_e041.png"
+    },
+    {
+      "name" : "[飞吻]",
+      "file" : "zemoji_e042.png"
+    },
+    {
+      "name" : "[色眯眯]",
+      "file" : "zemoji_e033.png"
+    },
+    {
+      "name" : "[亲]",
+      "file" : "zemoji_e044.png"
+    },
+    {
+      "name" : "[冒冷汗]",
+      "file" : "zemoji_e045.png"
+    },
+    {
+      "name" : "[眨眼]",
+      "file" : "zemoji_e046.png"
+    },
+    {
+      "name" : "[鬼脸]",
+      "file" : "zemoji_e047.png"
+    },
+    {
+      "name" : "[糟糕]",
+      "file" : "zemoji_e048.png"
+    },
+    {
+      "name" : "[调皮]",
+      "file" : "zemoji_e049.png"
+    },
+    {
+      "name" : "[沉思]",
+      "file" : "zemoji_e050.png"
+    },
+    {
+      "name" : "[傲气]",
+      "file" : "zemoji_e051.png"
+    },
+    {
+      "name" : "[酣睡]",
+      "file" : "zemoji_e052.png"
+    },
+    {
+      "name" : "[伤心]",
+      "file" : "zemoji_e053.png"
+    },
+    {
+      "name" : "[流汗]",
+      "file" : "zemoji_e054.png"
+    },
+    {
+      "name" : "[哈欠]",
+      "file" : "zemoji_e055.png"
+    },
+    {
+      "name" : "[困]",
+      "file" : "zemoji_e056.png"
+    },
+    {
+      "name" : "[皱眉]",
+      "file" : "zemoji_e058.png"
+    },
+    {
+      "name" : "[吓]",
+      "file" : "zemoji_e059.png"
+    },
+    {
+      "name" : "[生病]",
+      "file" : "zemoji_e060.png"
+    },
+    {
+      "name" : "[问号]",
+      "file" : "zemoji_e061.png"
+    },
+    {
+      "name" : "[生气]",
+      "file" : "zemoji_e062.png"
+    },
+    {
+      "name" : "[翔]",
+      "file" : "zemoji_e063.png"
+    },
+    {
+      "name" : "[脚印]",
+      "file" : "zemoji_e064.png"
+    },
+    {
+      "name" : "[示爱]",
+      "file" : "zemoji_e065.png"
+    },
+    {
+      "name" : "[一见钟情]",
+      "file" : "zemoji_e066.png"
+    },
+    {
+      "name" : "[心]",
+      "file" : "zemoji_e067.png"
+    },
+    {
+      "name" : "[心碎了]",
+      "file" : "zemoji_e068.png"
+    },
+    {
+      "name" : "[强]",
+      "file" : "zemoji_e069.png"
+    },
+    {
+      "name" : "[胜利]",
+      "file" : "zemoji_e070.png"
+    },
+    {
+      "name" : "[拍掌]",
+      "file" : "zemoji_e071.png"
+    },
+    {
+      "name" : "[弱爆]",
+      "file" : "zemoji_e072.png"
+    },
+    {
+      "name" : "[good]",
+      "file" : "zemoji_e073.png"
+    },
+    {
+      "name" : "[拳头]",
+      "file" : "zemoji_e074.png"
+    },
+    {
+      "name" : "[肌肉]",
+      "file" : "zemoji_e075.png"
+    },
+    {
+      "name" : "[保佑]",
+      "file" : "zemoji_e076.png"
+    },
+    {
+      "name" : "[阳光]",
+      "file" : "zemoji_e089.png"
+    },
+    {
+      "name" : "[火]",
+      "file" : "zemoji_e090.png"
+    },
+    {
+      "name" : "[粉心]",
+      "file" : "zemoji_e091.png"
+    }
+  ],
+  "ignore_emojis" : [
+    {
+      "name" : "[圈子]",
+      "file" : "zemoji_circle.png"
+    },
+    {
+      "name" : "[会员]",
+      "file" : "zemoji_huiyuan.png"
+    },
+    {
+      "name" : "[大佬]",
+      "file" : "zemoji_dalao.png"
+    },
+    {
+      "name" : "[会员1]",
+      "file" : "zemoji_huiyuan1.png"
+    },
+    {
+      "name" : "[会员2]",
+      "file" : "zemoji_huiyuan2.png"
+    },
+    {
+      "name" : "[标签]",
+       "file" : "zemoji_interest_tag.png"
+    },
+    {
+      "name" : "[会员3]",
+      "file" : "zemoji_huiyuan3.png"
+    }
+  ]
+}
